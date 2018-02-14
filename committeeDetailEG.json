@@ -1,0 +1,200 @@
+
+
+{
+  "congress": "115",
+  "chamber": "House",
+  "committee": "Committee on Energy and Natural Resources",
+  "num_results": "22",
+  "chairman_id": "M001153",
+  "ranking_member_id": "C000127",
+  "current_members": [
+    
+  ],
+  "former_members": [
+    {
+      "id": "W000779",
+      "name": "Ron Wyden",
+      "party": "D",
+      "rank_in_party": "",
+      "begin_date": "",
+      "end_date": "2017-01-03"
+    },
+    {
+      "id": "H001046",
+      "name": "Martin Heinrich",
+      "party": "D",
+      "rank_in_party": "",
+      "begin_date": "",
+      "end_date": "2017-01-03"
+    },
+    {
+      "id": "H001042",
+      "name": "Mazie K. Hirono",
+      "party": "D",
+      "rank_in_party": "",
+      "begin_date": "",
+      "end_date": "2017-01-03"
+    },
+    {
+      "id": "H001061",
+      "name": "John Hoeven",
+      "party": "R",
+      "rank_in_party": "",
+      "begin_date": "",
+      "end_date": "2017-01-03"
+    },
+    {
+      "id": "K000383",
+      "name": "Angus King",
+      "party": "I",
+      "rank_in_party": "",
+      "begin_date": "",
+      "end_date": "2017-01-03"
+    },
+    {
+      "id": "L000577",
+      "name": "Mike Lee",
+      "party": "R",
+      "rank_in_party": "",
+      "begin_date": "",
+      "end_date": "2017-01-03"
+    },
+    {
+      "id": "A000360",
+      "name": "Lamar  Alexander",
+      "party": "R",
+      "rank_in_party": "",
+      "begin_date": "",
+      "end_date": "2017-01-03"
+    },
+    {
+      "id": "M001183",
+      "name": "Joe Manchin III",
+      "party": "D",
+      "rank_in_party": "",
+      "begin_date": "",
+      "end_date": "2017-01-03"
+    },
+    {
+      "id": "B001261",
+      "name": "John Barrasso",
+      "party": "R",
+      "rank_in_party": "",
+      "begin_date": "",
+      "end_date": "2017-01-03"
+    },
+    {
+      "id": "P000449",
+      "name": "Rob  Portman",
+      "party": "R",
+      "rank_in_party": "",
+      "begin_date": "",
+      "end_date": "2017-01-03"
+    },
+    {
+      "id": "C001075",
+      "name": "Bill Cassidy",
+      "party": "R",
+      "rank_in_party": "",
+      "begin_date": "",
+      "end_date": "2017-01-03"
+    },
+    {
+      "id": "R000584",
+      "name": "Jim Risch",
+      "party": "R",
+      "rank_in_party": "",
+      "begin_date": "",
+      "end_date": "2017-01-03"
+    },
+    {
+      "id": "S000033",
+      "name": "Bernard Sanders",
+      "party": "I",
+      "rank_in_party": "",
+      "begin_date": "",
+      "end_date": "2017-01-03"
+    },
+    {
+      "id": "C001113",
+      "name": "Catherine Cortez Masto",
+      "party": "D",
+      "rank_in_party": "",
+      "begin_date": "",
+      "end_date": "2017-01-03"
+    },
+    {
+      "id": "D000618",
+      "name": "Steve Daines",
+      "party": "R",
+      "rank_in_party": "",
+      "begin_date": "",
+      "end_date": "2017-01-03"
+    },
+    {
+      "id": "S001141",
+      "name": "Jeff Sessions",
+      "party": "R",
+      "rank_in_party": "",
+      "begin_date": "",
+      "end_date": "2017-01-03"
+    },
+    {
+      "id": "D000622",
+      "name": "Tammy Duckworth",
+      "party": "D",
+      "rank_in_party": "",
+      "begin_date": "",
+      "end_date": "2017-01-03"
+    },
+    {
+      "id": "S000770",
+      "name": "Debbie Stabenow",
+      "party": "D",
+      "rank_in_party": "",
+      "begin_date": "",
+      "end_date": "2017-01-03"
+    },
+    {
+      "id": "F000444",
+      "name": "Jeff Flake",
+      "party": "R",
+      "rank_in_party": "",
+      "begin_date": "",
+      "end_date": "2017-01-03"
+    },
+    {
+      "id": "F000457",
+      "name": "Al Franken",
+      "party": "D",
+      "rank_in_party": "",
+      "begin_date": "",
+      "end_date": "2017-01-03"
+    },
+    {
+      "id": "G000562",
+      "name": "Cory Gardner",
+      "party": "R",
+      "rank_in_party": "",
+      "begin_date": "",
+      "end_date": "2017-01-03"
+    },
+    {
+      "id": "M001153",
+      "name": "Lisa Murkowski",
+      "party": "R",
+      "rank_in_party": "1",
+      "begin_date": "",
+      "end_date": "2017-01-03"
+    },
+    {
+      "id": "C000127",
+      "name": "Maria Cantwell",
+      "party": "D",
+      "rank_in_party": "1",
+      "begin_date": "",
+      "end_date": "2017-01-03"
+    }
+  ]
+}
+
