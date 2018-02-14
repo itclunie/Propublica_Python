@@ -1,0 +1,661 @@
+{
+    "kind": "civicinfo#representativeInfoResponse",
+    "normalizedInput": {
+        "line1": "109 Roberts Street North",
+        "city": "Fargo",
+        "state": "ND",
+        "zip": "58102"
+    },
+    "divisions": {
+        "ocd-division/country:us": {
+            "name": "United States",
+            "officeIndices": [0, 1]
+        },
+        "ocd-division/country:us/state:nd": {
+            "name": "North Dakota",
+            "alsoKnownAs": ["ocd-division/country:us/state:nd/cd:1"],
+            "officeIndices": [2, 3, 4, 5, 10, 11, 12, 13, 14, 15, 16, 17, 18]
+        },
+        "ocd-division/country:us/state:nd/county:cass": {
+            "name": "Cass County",
+            "officeIndices": [19, 20, 21, 22, 23]
+        },
+        "ocd-division/country:us/state:nd/place:fargo": {
+            "name": "Fargo city",
+            "officeIndices": [8, 9]
+        },
+        "ocd-division/country:us/state:nd/sldu:21": {
+            "name": "North Dakota State Senate district 21",
+            "alsoKnownAs": ["ocd-division/country:us/state:nd/sldl:21"],
+            "officeIndices": [6, 7]
+        }
+    },
+    "offices": [{
+        "name": "President of the United States",
+        "divisionId": "ocd-division/country:us",
+        "levels": ["country"],
+        "roles": ["headOfState", "headOfGovernment"],
+        "officialIndices": [0]
+    }, {
+        "name": "Vice-President of the United States",
+        "divisionId": "ocd-division/country:us",
+        "levels": ["country"],
+        "roles": ["deputyHeadOfGovernment"],
+        "officialIndices": [1]
+    }, {
+        "name": "United States Senate",
+        "divisionId": "ocd-division/country:us/state:nd",
+        "levels": ["country"],
+        "roles": ["legislatorUpperBody"],
+        "officialIndices": [2, 3]
+    }, {
+        "name": "United States House of Representatives ND",
+        "divisionId": "ocd-division/country:us/state:nd",
+        "levels": ["country"],
+        "roles": ["legislatorLowerBody"],
+        "officialIndices": [4]
+    }, {
+        "name": "Governor",
+        "divisionId": "ocd-division/country:us/state:nd",
+        "levels": ["administrativeArea1"],
+        "roles": ["headOfGovernment"],
+        "officialIndices": [5]
+    }, {
+        "name": "Lieutenant Governor",
+        "divisionId": "ocd-division/country:us/state:nd",
+        "levels": ["administrativeArea1"],
+        "roles": ["deputyHeadOfGovernment"],
+        "officialIndices": [6]
+    }, {
+        "name": "ND State Senate District 21",
+        "divisionId": "ocd-division/country:us/state:nd/sldu:21",
+        "levels": ["administrativeArea1"],
+        "roles": ["legislatorUpperBody"],
+        "officialIndices": [7]
+    }, {
+        "name": "ND State House District 21",
+        "divisionId": "ocd-division/country:us/state:nd/sldu:21",
+        "levels": ["administrativeArea1"],
+        "roles": ["legislatorLowerBody"],
+        "officialIndices": [8, 9]
+    }, {
+        "name": "Mayor",
+        "divisionId": "ocd-division/country:us/state:nd/place:fargo",
+        "officialIndices": [10]
+    }, {
+        "name": "Board Of Directors",
+        "divisionId": "ocd-division/country:us/state:nd/place:fargo",
+        "officialIndices": [11, 12, 13, 14]
+    }, {
+        "name": "State Auditor",
+        "divisionId": "ocd-division/country:us/state:nd",
+        "officialIndices": [15]
+    }, {
+        "name": "State Treasurer",
+        "divisionId": "ocd-division/country:us/state:nd",
+        "officialIndices": [16]
+    }, {
+        "name": "Attorney General",
+        "divisionId": "ocd-division/country:us/state:nd",
+        "officialIndices": [17]
+    }, {
+        "name": "Tax Commissioner",
+        "divisionId": "ocd-division/country:us/state:nd",
+        "officialIndices": [18]
+    }, {
+        "name": "Secretary of State",
+        "divisionId": "ocd-division/country:us/state:nd",
+        "officialIndices": [19]
+    }, {
+        "name": "Insurance Commissioner",
+        "divisionId": "ocd-division/country:us/state:nd",
+        "officialIndices": [20]
+    }, {
+        "name": "Agricultural Commissioner",
+        "divisionId": "ocd-division/country:us/state:nd",
+        "officialIndices": [21]
+    }, {
+        "name": "Public Service Commissioner",
+        "divisionId": "ocd-division/country:us/state:nd",
+        "officialIndices": [22, 23, 24]
+    }, {
+        "name": "State Superintendent of Public Instruction",
+        "divisionId": "ocd-division/country:us/state:nd",
+        "officialIndices": [25]
+    }, {
+        "name": "Auditor",
+        "divisionId": "ocd-division/country:us/state:nd/county:cass",
+        "officialIndices": [26]
+    }, {
+        "name": "Sheriff",
+        "divisionId": "ocd-division/country:us/state:nd/county:cass",
+        "officialIndices": [27]
+    }, {
+        "name": "Recorder",
+        "divisionId": "ocd-division/country:us/state:nd/county:cass",
+        "officialIndices": [28]
+    }, {
+        "name": "Treasurer",
+        "divisionId": "ocd-division/country:us/state:nd/county:cass",
+        "officialIndices": [29]
+    }, {
+        "name": "State's Attorney",
+        "divisionId": "ocd-division/country:us/state:nd/county:cass",
+        "officialIndices": [30]
+    }],
+    "officials": [
+        {
+        "name": "Donald J. Trump",
+        "address": [{
+            "line1": "The White House",
+            "line2": "1600 Pennsylvania Avenue NW",
+            "city": "Washington",
+            "state": "DC",
+            "zip": "20500"
+        }],
+        "party": "Republican",
+        "phones": ["(202) 456-1111"],
+        "urls": ["http://www.whitehouse.gov/"],
+        "photoUrl": "https://www.whitehouse.gov/sites/whitehouse.gov/files/images/45/PE%20Color.jpg",
+        "channels": [{
+            "type": "GooglePlus",
+            "id": "+whitehouse"
+        }, {
+            "type": "Facebook",
+            "id": "whitehouse"
+        }, {
+            "type": "Twitter",
+            "id": "potus"
+        }, {
+            "type": "YouTube",
+            "id": "whitehouse"
+        }]
+    }, 
+        {
+        "name": "Mike Pence",
+        "address": [{
+            "line1": "The White House",
+            "line2": "1600 Pennsylvania Avenue NW",
+            "city": "Washington",
+            "state": "DC",
+            "zip": "20500"
+        }],
+        "party": "Republican",
+        "phones": ["(202) 456-1111"],
+        "urls": ["http://www.whitehouse.gov/"],
+        "photoUrl": "https://www.whitehouse.gov/sites/whitehouse.gov/files/images/45/VPE%20Color.jpg",
+        "channels": [{
+            "type": "GooglePlus",
+            "id": "+whitehouse"
+        }, {
+            "type": "Facebook",
+            "id": "whitehouse"
+        }, {
+            "type": "Twitter",
+            "id": "VP"
+        }]
+    }, 
+        {
+        "name": "John Hoeven",
+        "address": [{
+            "line1": "338 Russell Senate Office Building",
+            "city": "Washington",
+            "state": "DC",
+            "zip": "20510"
+        }],
+        "party": "Republican",
+        "phones": ["(202) 224-2551"],
+        "urls": ["https://www.hoeven.senate.gov/"],
+        "photoUrl": "http://bioguide.congress.gov/bioguide/photo/H/H001061.jpg",
+        "channels": [{
+            "type": "Facebook",
+            "id": "SenatorJohnHoeven"
+        }, {
+            "type": "Twitter",
+            "id": "SenJohnHoeven"
+        }, {
+            "type": "YouTube",
+            "id": "SenatorJohnHoevenND"
+        }]
+    }, 
+        {
+        "name": "Heidi Heitkamp",
+        "address": [{
+            "line1": "110 Hart Senate Office Building",
+            "city": "Washington",
+            "state": "DC",
+            "zip": "20510"
+        }],
+        "party": "Democratic",
+        "phones": ["(202) 224-2043"],
+        "urls": ["http://www.heitkamp.senate.gov/public/"],
+        "photoUrl": "http://bioguide.congress.gov/bioguide/photo/H/H001069.jpg",
+        "channels": [{
+            "type": "Facebook",
+            "id": "SenatorHeidiHeitkamp"
+        }, {
+            "type": "Twitter",
+            "id": "SenatorHeitkamp"
+        }, {
+            "type": "YouTube",
+            "id": "SenatorHeidiHeitkamp"
+        }]
+    }, {
+        "name": "Kevin Cramer",
+        "address": [{
+            "line1": "1717 Longworth House Office Building",
+            "city": "Washington",
+            "state": "DC",
+            "zip": "20515"
+        }],
+        "party": "Republican",
+        "phones": ["(202) 225-2611"],
+        "urls": ["http://cramer.house.gov/"],
+        "photoUrl": "http://bioguide.congress.gov/bioguide/photo/C/C001096.jpg",
+        "channels": [{
+            "type": "Facebook",
+            "id": "CongressmanKevinCramer"
+        }, {
+            "type": "Twitter",
+            "id": "RepKevinCramer"
+        }, {
+            "type": "YouTube",
+            "id": "kevincramer"
+        }]
+    }, {
+        "name": "Doug Burgum",
+        "address": [{
+            "line1": "600 E. Boulevard Avenue",
+            "city": "Bismarck",
+            "state": "ND",
+            "zip": "58505"
+        }],
+        "party": "Republican",
+        "phones": ["(701) 328-2200"],
+        "urls": ["https://www.governor.nd.gov/"],
+        "photoUrl": "https://www.governor.nd.gov/sites/governor/files/award/burgum-bio.jpg",
+        "channels": [{
+            "type": "Facebook",
+            "id": "GovernorDougBurgum"
+        }, {
+            "type": "Twitter",
+            "id": "DougBurgum"
+        }]
+    }, {
+        "name": "Brent Sanford",
+        "address": [{
+            "line1": "600 E. Boulevard Avenue",
+            "city": "Bismarck",
+            "state": "ND",
+            "zip": "58505"
+        }],
+        "party": "Republican",
+        "phones": ["(701) 328-2200"],
+        "urls": ["https://www.governor.nd.gov/lieutenant-governor-brent-sanford"],
+        "photoUrl": "https://www.governor.nd.gov/sites/governor/files/pictures/Brent%20Sanford%20photo.jpg"
+    }, {
+        "name": "Carolyn C. Nelson",
+        "address": [{
+            "line1": "210 11TH ST N",
+            "city": "Fargo",
+            "state": "ND",
+            "zip": "58102"
+        }],
+        "party": "Democratic",
+        "phones": ["(701) 235-5161"],
+        "urls": ["http://www.legis.nd.gov/assembly/64-2015/members/senate/senator-carolyn-c-nelson"],
+        "photoUrl": "http://www.legis.nd.gov/files/styles/medium/public/person/photo/cnelson.jpg?itok=0bc0Yngn",
+        "emails": ["cnelson@nd.gov"]
+    }, {
+        "name": "Mary Schneider",
+        "address": [{
+            "line1": "1011 8TH ST S,",
+            "city": "Fargo",
+            "state": "ND",
+            "zip": "58103"
+        }],
+        "party": "Democratic",
+        "phones": ["(701) 235-0316"],
+        "urls": ["http://www.legis.nd.gov/assembly/64-2015/members/house/representative-mary-schneider"],
+        "photoUrl": "http://www.legis.nd.gov/files/styles/medium/public/person/photo/photo-not-available_4.jpg?itok=BG63kxSa",
+        "emails": ["mschneider@nd.gov"]
+    }, {
+        "name": "Kathy Hogan",
+        "address": [{
+            "line1": "710 UNIVERSITY DR S,",
+            "city": "Fargo",
+            "state": "ND",
+            "zip": "58103"
+        }],
+        "party": "Democratic",
+        "phones": ["(701) 235-1916"],
+        "urls": ["http://www.legis.nd.gov/assembly/64-2015/members/house/representative-kathy-hogan"],
+        "photoUrl": "http://www.legis.nd.gov/files/styles/medium/public/person/photo/khogan.jpg?itok=UpbXSf1G",
+        "emails": ["khogan@nd.gov"]
+    }, {
+        "name": "Tim Mahoney",
+        "address": [{
+            "line1": "200 North Third Street",
+            "city": "Fargo",
+            "state": "ND",
+            "zip": "58102"
+        }],
+        "phones": ["(701) 241-1310"],
+        "urls": ["http://www.cityoffargo.com/CityInfo/Mayor/"],
+        "emails": ["tmahoney@cityoffargo.com"]
+    }, {
+        "name": "Dave Piepkorn",
+        "address": [{
+            "line1": "200 North Third Street",
+            "city": "Fargo",
+            "state": "ND",
+            "zip": "58102"
+        }],
+        "phones": ["(701) 241-1310"],
+        "urls": ["http://www.cityoffargo.com/CityInfo/CityCommission/Members/CommissionerDavePiepkorn.aspx"],
+        "emails": ["dpiepkorn@cityoffargo.com"]
+    }, {
+        "name": "Tony Gehrig",
+        "address": [{
+            "line1": "200 North Third Street",
+            "city": "Fargo",
+            "state": "ND",
+            "zip": "58102"
+        }],
+        "phones": ["(701) 241-1310"],
+        "urls": ["http://www.cityoffargo.com/CityInfo/CityCommission/Members/CommissionerTonyGehrig.aspx"],
+        "emails": ["tgehrig@cityoffargo.com"]
+    }, {
+        "name": "Tony Grindberg",
+        "address": [{
+            "line1": "200 North Third Street",
+            "city": "Fargo",
+            "state": "ND",
+            "zip": "58102"
+        }],
+        "phones": ["(701) 241-1310"],
+        "urls": ["http://www.cityoffargo.com/CityInfo/CityCommission/Members/CommissionerTonyGrindberg.aspx"],
+        "emails": ["TGrindberg@cityoffargo.com"],
+        "channels": [{
+            "type": "Facebook",
+            "id": "GrindbergforFargo"
+        }]
+    }, {
+        "name": "John Strand",
+        "address": [{
+            "line1": "200 North Third Street",
+            "city": "Fargo",
+            "state": "ND",
+            "zip": "58102"
+        }],
+        "phones": ["(701) 241-1310"],
+        "urls": ["http://www.cityoffargo.com/CityInfo/CityCommission/Members/CommissionerJohnStrand.aspx"],
+        "emails": ["JStrand@cityoffargo.com"],
+        "channels": [{
+            "type": "Facebook",
+            "id": "JohnStrandforFargo"
+        }]
+    }, {
+        "name": "Josh Gallion",
+        "address": [{
+            "line1": "600 E. Boulevard",
+            "line2": "Dept. 117",
+            "city": "Bismarck",
+            "state": "ND",
+            "zip": "58505"
+        }],
+        "party": "Republican",
+        "phones": ["(701) 328-2241"],
+        "urls": ["https://www.nd.gov/auditor/"],
+        "emails": ["ndsao@nd.gov"],
+        "channels": [{
+            "type": "Facebook",
+            "id": "NDStateAuditor"
+        }]
+    }, {
+        "name": "Kelly Schmidt",
+        "address": [{
+            "line1": "600 E Boulevard Ave",
+            "line2": "Dept 120",
+            "city": "Bismarck",
+            "state": "ND",
+            "zip": "58505"
+        }],
+        "party": "Republican",
+        "phones": ["(701) 328-2643"],
+        "urls": ["http://www.nd.gov/treasurer"],
+        "emails": ["treasurer@nd.gov"],
+        "channels": [{
+            "type": "Facebook",
+            "id": "TreasurerKellySchmidt"
+        }, {
+            "type": "Twitter",
+            "id": "NDTreas"
+        }]
+    }, {
+        "name": "Wayne Stenehjem",
+        "address": [{
+            "line1": "600 E. Boulevard Ave.",
+            "line2": "Dept. 125",
+            "city": "Bismarck",
+            "state": "ND",
+            "zip": "58505"
+        }],
+        "party": "Republican",
+        "phones": ["(701) 328-2210"],
+        "urls": ["https://attorneygeneral.nd.gov/"],
+        "emails": ["ndag@nd.gov"]
+    }, {
+        "name": "Ryan Rauschenberger",
+        "address": [{
+            "line1": "600 E Boulevard Ave.",
+            "line2": "Dept 127",
+            "city": "Bismarck",
+            "state": "ND",
+            "zip": "58505"
+        }],
+        "party": "Republican",
+        "phones": ["(701) 328-7088"],
+        "urls": ["https://www.nd.gov/tax/"],
+        "emails": ["taxinfo@nd.gov"],
+        "channels": [{
+            "type": "GooglePlus",
+            "id": "107801884987335231923"
+        }, {
+            "type": "Facebook",
+            "id": "ndtaxdepartment"
+        }, {
+            "type": "Twitter",
+            "id": "ndtaxdepartment"
+        }]
+    }, {
+        "name": "Al Jaeger",
+        "address": [{
+            "line1": "600 E Boulevard Avenue",
+            "line2": "Dept 108",
+            "city": "Bismarck",
+            "state": "ND",
+            "zip": "58505"
+        }],
+        "party": "Republican",
+        "phones": ["(701) 328-2900"],
+        "urls": ["http://sos.nd.gov/"],
+        "emails": ["sos@nd.gov"],
+        "channels": [{
+            "type": "Facebook",
+            "id": "NDSOS"
+        }]
+    }, {
+        "name": "Jon Godfread",
+        "address": [{
+            "line1": "600 E. Boulevard",
+            "line2": "Ave., Bismarck,",
+            "city": "",
+            "state": "ND",
+            "zip": "58505"
+        }],
+        "party": "Republican",
+        "phones": ["(701) 328-2440"],
+        "urls": ["https://www.nd.gov/ndins/"],
+        "emails": ["insurance@nd.gov"],
+        "channels": [{
+            "type": "Twitter",
+            "id": "NDID"
+        }]
+    }, {
+        "name": "Doug Goehring",
+        "address": [{
+            "line1": "600 E. Boulevard Avenue",
+            "line2": "Dept. 602",
+            "city": "Bismarck",
+            "state": "ND",
+            "zip": "58505"
+        }],
+        "party": "Republican",
+        "phones": ["(701) 328-4754"],
+        "urls": ["https://www.nd.gov/ndda/"],
+        "emails": ["ndda@nd.gov"],
+        "channels": [{
+            "type": "Facebook",
+            "id": "NDagriculture"
+        }, {
+            "type": "Twitter",
+            "id": "NDagriculture"
+        }]
+    }, {
+        "name": "Randy Christmann",
+        "address": [{
+            "line1": "600 E. Boulevard Avenue",
+            "line2": "Dept. 408",
+            "city": "Bismarck",
+            "state": "ND",
+            "zip": "58505"
+        }],
+        "party": "Republican",
+        "phones": ["(701) 328-2400"],
+        "urls": ["http://www.psc.nd.gov/commission/meet/christmann.php"],
+        "emails": ["ndpsc@nd.gov"],
+        "channels": [{
+            "type": "Twitter",
+            "id": "NDPSC"
+        }]
+    }, {
+        "name": "Julie Fedorchak",
+        "address": [{
+            "line1": "600 E. Boulevard Avenue",
+            "line2": "Dept. 408",
+            "city": "Bismarck",
+            "state": "ND",
+            "zip": "58505"
+        }],
+        "party": "Republican",
+        "phones": ["(701) 328-2400"],
+        "urls": ["http://www.psc.nd.gov/commission/meet/fedorchak.php"],
+        "emails": ["ndpsc@nd.gov"],
+        "channels": [{
+            "type": "Twitter",
+            "id": "NDPSC"
+        }]
+    }, {
+        "name": "Brian P. Kalk",
+        "address": [{
+            "line1": "600 E. Boulevard Avenue",
+            "line2": "Dept. 408",
+            "city": "Bismarck",
+            "state": "ND",
+            "zip": "58505"
+        }],
+        "party": "Republican",
+        "phones": ["(701) 328-2400"],
+        "urls": ["http://www.psc.nd.gov/commission/meet/kalk.php"],
+        "emails": ["ndpsc@nd.gov"],
+        "channels": [{
+            "type": "Twitter",
+            "id": "NDPSC"
+        }]
+    }, {
+        "name": "Kirsten Baesler",
+        "address": [{
+            "line1": "600 E. Boulevard Avenue",
+            "line2": "Dept. 201",
+            "city": "Bismarck",
+            "state": "ND",
+            "zip": "58505"
+        }],
+        "party": "Republican",
+        "phones": ["(701) 328-2260"],
+        "urls": ["https://www.nd.gov/dpi/"],
+        "emails": ["kbaesler@nd.gov"],
+        "channels": [{
+            "type": "Facebook",
+            "id": "NDDPI"
+        }, {
+            "type": "Twitter",
+            "id": "NDDPI"
+        }]
+    }, {
+        "name": "Michael Montplaisir",
+        "address": [{
+            "line1": "P.O. Box 2806",
+            "city": "Fargo",
+            "state": "ND",
+            "zip": "58108"
+        }],
+        "party": "Nonpartisan",
+        "phones": ["(701) 241-5600"],
+        "urls": ["http://www.casscountynd.gov/county/depts/Auditor/Pages/default.aspx"],
+        "emails": ["montplaisirm@casscountynd.gov"]
+    }, {
+        "name": "Paul Laney",
+        "address": [{
+            "line1": "Sheriff's Department P.O. Box 488",
+            "city": "Fargo",
+            "state": "ND",
+            "zip": "58107"
+        }],
+        "party": "Nonpartisan",
+        "phones": ["(701) 241-5800"],
+        "urls": ["http://www.casscountynd.gov/county/depts/sheriff/Pages/default.aspx"],
+        "emails": ["laneyp@casscountynd.gov"],
+        "channels": [{
+            "type": "Facebook",
+            "id": "CassCountySO"
+        }]
+    }, {
+        "name": "Jewel Spies",
+        "address": [{
+            "line1": "P.O. Box 2806",
+            "city": "Fargo",
+            "state": "ND",
+            "zip": "58108"
+        }],
+        "party": "Nonpartisan",
+        "phones": ["(701) 241-5620"],
+        "urls": ["http://www.casscountynd.gov/county/depts/Recorder/Pages/default.aspx"],
+        "emails": ["spiesj@casscountynd.gov"]
+    }, {
+        "name": "Charlotte Sandvik",
+        "address": [{
+            "line1": "P.O. Box 2806",
+            "city": "Fargo",
+            "state": "ND",
+            "zip": "58108"
+        }],
+        "party": "Nonpartisan",
+        "phones": ["(701) 241-5611"],
+        "urls": ["http://www.casscountynd.gov/county/depts/Treasurer/Pages/default.aspx"],
+        "emails": ["sandvikc@casscountynd.gov"]
+    }, {
+        "name": "Birch Burdick",
+        "address": [{
+            "line1": "P.O. Box 2806",
+            "city": "Fargo",
+            "state": "ND",
+            "zip": "58108"
+        }],
+        "party": "Nonpartisan",
+        "phones": ["(701) 241-5850"],
+        "urls": ["http://www.casscountynd.gov/county/depts/StatesAttorney/Pages/default.aspx"],
+        "emails": ["burdickb@casscountynd.gov"]
+    }]
+}
